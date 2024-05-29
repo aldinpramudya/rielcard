@@ -65,6 +65,10 @@ body {
     background: #0077b5;
 }
 
+.wrapper .button:nth-child(7):hover .icon {
+    background: #646464;
+}
+
 
 .wrapper .button .icon i {
     font-size: 25px;
@@ -107,7 +111,18 @@ body {
     color: #0077b5;
 }
 
+.wrapper .button:nth-child(7) span{
+    color: #646464;
+}
+
 .wrapper .button a{
     color: inherit;
     text-decoration: none;
+}
+
+@media (max-width: 460px) {
+    .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
 }
