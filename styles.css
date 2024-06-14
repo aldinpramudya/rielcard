@@ -107,6 +107,11 @@ body {
     --color: #1e7cf2;
 }
 
+.icon:has(.fa-globe) {
+    --color: #777777;
+}
+
+
 @media only screen and (max-width: 600px) {
     .icon {
         width: 3.125rem;
